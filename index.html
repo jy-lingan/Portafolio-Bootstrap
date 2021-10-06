@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JimDev</title>
+    <link rel="shortcut icon" href="img/48px.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img class="rounded-circle align-middle mr-2" src="img/48px.png" alt="Profile Picture">
+                Sobre mí
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active" aria-current="page">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav -->
+
+    <div class="container mt-4">
+        <h2 class="display-4 mb-4">
+            Jimmy Lingan
+            <small class="d-block text-muted">Developer</small>
+        </h2>
+        <div class="row mb-4">
+            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                <img src="img/ensamblar.jpeg" alt="" class="img-fluid rounded">
+            </div>
+            <div class="col-12 col-lg-6">
+                <h3 id="home">Sobre mí</h3>
+                <p>¡Hola! Mi nombre es Jimmy Lingan, un estudiante de ingeniería de sistemas que estudia FullStack Web
+                    Development.</p>
+                <p>Tengo cierto conocimiento de lenguajes como Python, Java y algunos framework como Django y Bootstrap.
+                </p>
+                <p>Me gusta ensamblar computadoras.
+                </p>
+            </div>
+        </div>
+
+        <h3 id="proyectos">Proyectos</h3>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/spinner.png" class="d-block w-100" alt="spinner">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><a class="alert-success text-decoration-none fa fa-spinner"
+                                href="https://spinner-jimdev.netlify.app/">Spinner</a></h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg4.imageshack.us%2Fimg4%2F521%2Fdmfull34y.jpg&f=1&nofb=1"
+                        class="d-block w-100" alt="turismo">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><a class="alert-success text-decoration-none fa fa-taxi"
+                                href="https://ejercicio-8-bootstrap-5-jimdev.netlify.app/">Quiero Turismo</a></h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1341905.jpg&w=596&h=596&c=sc&poi=face&q=85"
+                        class="d-block w-50" alt="cocina">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><a class="alert-success text-decoration-none fa fa-meal"
+                                href="https://zealous-aryabhata-9fa754.netlify.app/">Bloc de
+                                cocina</a></h5>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <h3 id="skills" class="animate__heartBeat">Skills</h3>
+        <div class="row mb-4">
+
+            <div id="page-skill">
+                <div id="body-skill">
+                    <div class="skillcard">
+                        <h1 id="MySkills" class="animate__heartBeat">My Skills</h1>
+
+                        <p id="py" class="animate__heartBeat">HTML</p>
+                        <div class="pyskill animate__heartBeat">
+                            <div class="skills html"><span>90%</span></div>
+                        </div>
+
+                        <p id="py" class="animate__heartBeat">CSS</p>
+                        <div class="pyskill animate__heartBeat">
+                            <div class="skills css"><span>80%</span></div>
+                        </div>
+                        <p id="py" class="animate__heartBeat">Bootstrap</p>
+                        <div class="pyskill animate__heartBeat">
+                            <div class="skills bootstrap"><span>70%</span></div>
+                        </div>
+
+                        <p id="py" class="animate__heartBeat">JavaScript</p>
+                        <div class="pyskill animate__heartBeat">
+                            <div class="skills js"><span>65%</span></div>
+                        </div>
+                        <p id="py" class="animate__heartBeat">Python</p>
+                        <div class="pyskill animate__heartBeat">
+                            <div class="skills python"><span>55%</span></div>
+                        </div>
+                        <p id="py" class="animate__heartBeat">Django</p>
+                        <div class="pyskill animate__heartBeat">
+                            <div class="skills django"><span>50%</span></div>
+                        </div>
+                        <p id="py" class="animate__heartBeat">PostgreSQL</p>
+                        <div class="pyskill animate__heartBeat">
+                            <div class="skills psql"><span>40%</span></div>
+                        </div>
+
+                        <p id="py" class="animate__heartBeat">Java</p>
+                        <div class="pyskill animate__heartBeat">
+                            <div class="skills java"><span>25%</span></div>
+                        </div>
+                        <div class="dev"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 id="contacto">Contáctame</h3>
+        <div class="col-md-6">
+            <form action="https://submit-form.com/yw5WUPJ1">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Nombre" required="" class="form-control" />
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required="" class="form-control" />
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea id="message" name="message" placeholder="Mensaje" required=""
+                    class="form-label form-control"></textarea>
+                <button type="submit" class="btn btn-primary">Envíar</button>
+            </form>
+        </div>
+
+    </div>
+
+    <footer class="bg-light py-4">
+        <div class="container">
+            <p class="text-center mb-0">&copy; 2021 Jimmy Lingan. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

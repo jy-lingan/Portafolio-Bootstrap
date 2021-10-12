@@ -1,3 +1,7 @@
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(160,253,145,1) 0%, rgba(112,215,229,1) 90% );
+}
+
 .skillcard {
     position        : relative;
     width           : 90%;
@@ -113,3 +117,4 @@
     padding-bottom: 5px;
 
 }
+
